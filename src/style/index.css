@@ -108,6 +108,7 @@
     height: 100%;
     background-color: rgb(0, 0, 0);
     background-color: rgba(0, 0, 0, 0.4);
+    animation: showModal 1s;
 }
 
 .modal-completo{
@@ -188,6 +189,15 @@
     display: none;
 }
 
+
+@keyframes showModal {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
 
 
 
